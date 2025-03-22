@@ -17,6 +17,13 @@ RUN cd /code \
   && pip install pip==18.1 \
   && pip install numpy==1.14.5 \
   && pip install -e .[test] --process-dependency-links \
+  && pip install jupyter \
   && rm -rf /root/.cache
 
 WORKDIR /code
+
+# Expose Jupyter port
+EXPOSE 8888
+
+# Start Jupyter when container runs
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
