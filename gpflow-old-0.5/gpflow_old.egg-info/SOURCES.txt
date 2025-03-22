@@ -2,6 +2,7 @@ LICENSE
 MANIFEST.in
 README.md
 RELEASE.md
+setup.cfg
 setup.py
 doc/source/apiAndArchitecture.rst
 doc/source/conf.py

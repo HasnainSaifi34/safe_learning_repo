@@ -6,7 +6,6 @@ Home-page: http://github.com/gpflow/gpflow
 Author: James Hensman, Alex Matthews
 Author-email: james.hensman@gmail.com
 License: Apache License 2.0
-Description: UNKNOWN
 Keywords: machine-learning gaussian-processes kernels tensorflow
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: Apache Software License
@@ -19,3 +18,7 @@ Classifier: Programming Language :: Python :: 3.5
 Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Provides-Extra: tensorflow with gpu
 Provides-Extra: Export parameters as pandas dataframes
+License-File: LICENSE
+
+UNKNOWN
+
