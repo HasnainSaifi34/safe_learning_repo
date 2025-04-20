@@ -1,0 +1,2 @@
+model_checkpoint_path: "lyapunov_function_learning.ckpt"
+all_model_checkpoint_paths: "lyapunov_function_learning.ckpt"

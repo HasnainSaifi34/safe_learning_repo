@@ -1,0 +1,9 @@
+numpy==1.14.5
+scipy==1.5.4
+#gpflow==0.5.0 we have the local folder for this
+matplotlib==2.2.0
+scs==2.0.2
+cvxpy==1.1.24
+tensorflow==1.15.0
+tensorflow-probability==0.7.0
+future==0.18.2
